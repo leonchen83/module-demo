@@ -30,19 +30,23 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		// open 反射例子
-//		new SubModule1().method0();
-//		new SubModule1().method1();
+		// 1. open 反射例子
+		new SubModule1().method0();
+		new SubModule1().method1();
 		
-		//require transitive 例子
+		// 2. require transitive 例子
 //		new SubModule2().method1();
 
-		//provides use例子
+		// 3. provides use例子
 //		ServiceLoader<ExampleInterface> loader = ServiceLoader.load(ExampleInterface.class);
 //		Iterator<ExampleInterface> it = loader.iterator();
 //		while (it.hasNext()) {
 //			System.out.println(it.next().getName());
 //		}
+		
+		// 4. Automatic Unnamed module
+//		new SubModule1().method0();
+//		new SubModule1().method1();
 		
 	}
 }
