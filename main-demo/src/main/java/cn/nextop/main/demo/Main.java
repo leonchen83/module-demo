@@ -38,11 +38,11 @@ public class Main {
 //		new SubModule2().method1();
 
 		//provides use例子
-		ServiceLoader<ExampleInterface> loader = ServiceLoader.load(ExampleInterface.class);
-		Iterator<ExampleInterface> it = loader.iterator();
-		while (it.hasNext()) {
-			System.out.println(it.next().getName());
-		}
+//		ServiceLoader<ExampleInterface> loader = ServiceLoader.load(ExampleInterface.class);
+//		Iterator<ExampleInterface> it = loader.iterator();
+//		while (it.hasNext()) {
+//			System.out.println(it.next().getName());
+//		}
 		
 	}
 }
