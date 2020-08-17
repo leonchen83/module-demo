@@ -12,4 +12,4 @@ do
 done
 export CLASSPATH
 echo $CLASSPATH
-java --class-path $CLASSPATH cn.nextop.main.demo.Main
+/usr/local/jdk/bin/java cn.nextop.main.demo.Main
