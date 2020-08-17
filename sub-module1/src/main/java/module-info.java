@@ -5,5 +5,5 @@ module module1 {
 	requires module2;
 //	requires transitive module2;
 	exports cn.nextop.sub.module1;
-	provides ExampleInterface with ExampleInterfaceImpl1;
+//	provides ExampleInterface with ExampleInterfaceImpl1;
 }
